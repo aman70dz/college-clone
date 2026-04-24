@@ -14,7 +14,7 @@ This project is a frontend design of a college website with multiple sections li
 - JavaScript
 
 ## 🔗 Live Demo
-(Add your GitHub Pages link here)
+https://github.com/aman70dz/college-clone.git
 
 ## 📚 What I Learned
 - Multi-page linking using relative paths
