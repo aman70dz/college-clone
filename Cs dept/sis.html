@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>SIS</title>
+        <style>
+            body
+            {
+                margin: 0;
+                padding: 0;
+                background-color: #606060;
+            }
+
+            #username
+            {margin-top: -10px;}
+            #password
+            {margin-top: 15px; }
+            #username,#password
+            {
+                position: absolute;
+                margin-left: 610px;
+                width: 140px;
+                height: 20px;
+                border:1px solid black;
+            }
+            #submit
+            {
+                position: absolute;
+                left: 610px;
+                top: 420px;
+                width: 70px;
+                height: 20px; 
+                background-color: #f0cae2; 
+                color:black; 
+                border:none;  
+                border: 1px solid #F484BF; 
+                cursor: pointer;
+            }   
+    </style>
+    </head>
+<body> 
+    <div id="Icard">
+        <img src="image\ICard.png" alt="ICARD img" style="width:420px; height:570px; margin-left: 420px;">
+        <h3 style="color:white; margin-top: -240px; margin-left: 530px;">LOGIN</h3>
+
+        <label for="username" style="color:white; margin-left: 540px; margin-top: -10px; position: absolute;">User ID :</label>
+        <input type="text" id="username" name="username" placeholder="User ID">
+
+        <label for="password" style="color:white; margin-left: 530px; margin-top: 15px; position: absolute;">Password :</label>
+        <input type="password" id="password" name="password" placeholder="password">
+
+        <input id="Submit" type="submit" value="Sign In">
+        <p style="position: absolute; font-size: 11px; left: 530px; top: 455px; color: white;">If you forgot your password, please contact<br> administrator.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,190 @@
+<html>
+<head>
+<title>News and Events</title>
+<link rel="stylesheet" href="NewsAndEvents.css">
+</head>
+
+<body>
+
+<div id="header">
+            <div>
+            <img src="image/Cslogo.png" alt="logo" style="height: 70px; margin-left:-1200px;">
+            <hr style="width: 103%; height: 4px; background-color: #ff0099; border: none; margin-left:-18px;">
+            <h3 id="instName" style="color:white; margin-top:-80px; margin-left:-650px;">Bhulabhai Vanmalibhai Patel 		    Institute of Computer<br>Science</h3>
+            </div>
+            <nav id="navbar">
+                <ul id="ulNav">
+                    <li><a href="Bvpatelcs.html">HOME</a></li>
+                    <li><a href="#student">STUDENT CORNER</a></li>
+                    <li><a href="faculty.html">FACULTY</a></li>
+                    <li><a href="NewsAndEvents.html">NEWS&EVENTS</a></li>
+                    <li><a href="#R&DC">R&DC</a></li>
+                    <li><a href="circular.html">CIRCULAR</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </div>
+
+<h1>News and Events</h1>
+
+<div class="dropdown">
+    <div class="dropdown-btn" onclick="toggleDropdown()">
+        <span id="selectedYear">2025-26</span>
+    </div>
+
+    <div class="dropdown-content" id="dropdownList">
+        <div class="active" onclick="selectYear(this,'2025-26')">2025-26</div>
+        <div onclick="selectYear(this,'2024-25')">2024-25</div>
+        <div onclick="selectYear(this,'2023-24')">2023-24</div>
+        <div onclick="selectYear(this,'2018-19')">2018-19</div>
+        <div onclick="selectYear(this,'2016-17')">2016-17</div>
+        <div onclick="selectYear(this,'2014-15')">2014-15</div>
+        <div onclick="selectYear(this,'2013-14')">2013-14</div>
+        <div onclick="selectYear(this,'2012-13')">2012-13</div>
+        <div onclick="selectYear(this,'2011-12')">2011-12</div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="year-banner" id="yearBanner">2025-26</div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>News and Events</th>
+            </tr>
+        </thead>
+        <tbody id="tableData"></tbody>
+    </table>
+</div>
+
+<div id="footer" style="background-color: #3f057e; color: white; height:90%; width:100%; margin-top:80px; overflow: hidden;">
+            <div id="footerContent" style="width: 100%;">
+            <img src="image/Cslogo.png" alt="logo" style="height: 120px; margin-left: 300px; margin-top: 50px;">
+            <h3 style="color:white; margin-top: 10px; margin-left: 90px;">Bhulabhai Vanmalibhai Patel Institute of Computer Science</h3>
+            <h4>Uka Tarsadia University, Maliba Campus, Gopal Vidyanagar, Bardoli-Mahuva Road, Tarsadi,<br> Gujarat, India</h4>
+            <h4>Dr. Dharmendra Bhatti: 9825339693</h4>
+            <h4>Ms. Bhumika Desai: 9687607383</h4>
+            <h4>Mr. Amish Patel: 9879772359</h4>
+            <h4>director.bvp@utu.ac.in</h4>
+            </div>
+            <div>
+                <h3 style="color:white; margin-top: -420px; margin-left: 760px;">Quick Links</h3>
+                <nav id="QuickNav" style="margin-top: 20px; margin-left: 300px;">
+                    <ul style="list-style: none; display: flex; flex-direction: column; gap: 22px; margin-left: 420px; margin-top: 0px; font-size: 17px;">
+                        <li><a href="https://www.utu.ac.in/" style="text-decoration: none;">Uka Tarsadiya<br>University</a></li>
+                        <li><a href="AcademicCalander.html" style="text-decoration: none; ">Academic Calendar</a></li>
+                        <li><a href="#committees" style="text-decoration: none;">BCA Committees &<br>Cells</a></li>
+                        <li><a href="#photo" style="text-decoration: none;">Photo Gallery</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div style="margin-top: 140px; margin-left: 200px;">
+                <h3 style="color:white; margin-top: -390px; margin-left: 760px;">About Us</h3>
+                <nav id="AboutNav" style="margin-top: 20px; margin-left: 300px;">
+                    <ul style="list-style: none; display: flex; flex-direction: column; gap: 22px; margin-left: 420px; margin-top: 0px; font-size: 17px;">
+                        <li><a href="faculty.html" style="text-decoration: none; ">Staff</a></li>
+                        <li><a href="NewsAndEvents.html" style="text-decoration: none;">News &<br>Events</a></li>
+                        <li><a href="contact.html" style="text-decoration: none;">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div style="margin-top: 210px; margin-left: 340px;">
+                <h3 style="color:white; margin-top: -390px; margin-left: 760px;">Useful Links</h3>
+                <nav id="UsefulLinksNav" style="margin-top: 20px; margin-left: 300px;">
+                    <ul style="list-style: none; display: flex; flex-direction: column; gap: 22px; margin-left: 420px; margin-top: 0px; font-size: 17px;">
+                        <li><a href="scholarship.html" style="text-decoration: none; ">Scholarships</a></li>
+                        <li><a href="#webmail" style="text-decoration: none;">Web Mail</a></li>
+                        <li><a href="sis.html" style="text-decoration: none;">SIS</a></li>
+                        <li><a href="http://bvpinst.edu.in/BVPICS/FAQ-BCA.html" style="text-decoration: none;">FAQ BCA</a></li>
+                        <li><a href="https://utu.ac.in/Admission.html" style="text-decoration: none;">Apply for<br> Admission</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <img src="image\socialMedia.png" alt="Social Media" style="height: 200px; width: 30px; margin-top: -200px; margin-left: 1220px;">
+            <hr style="width: 95%; height: 2px; background-color: #ff0099; border: none; margin-left:30px; margin-top: 140px;">
+            <p style="margin-left: 40%;">© 2024 BVPICS All rights reserved.</p>
+        </div>
+<script>
+const data = {
+    "2025-26": [
+        ["2025", "WEB REPORT ON CULTURAL EVENT “Web report AArambha 2026” ORGANIZED BY SRIMCA RAJCHANDRA INSTITUTE OF MANAGEMENT AND COMPUTER APPLICATION and B. V. PATEL INSTITUTE OF COMPUTER SCIENCE ON 7TH JANUARY 2026."],
+        ["2025", "PAPER PUBLICATION BY A GROUP OF BCA STUDENT IN THE JOURNAL OF MODERNIZATION IN ENGINEERING TECHNOLOGY AND SCIENCE."],
+        ["2025", "PAPER PRESENTATION INTERNATIONAL CONFERENCE ON INNOVATIONS IN ENGINEERING AND SCIENCES (ICIES 2025) AND PAPER PUBLICATION AT INTERNATIONAL RESEARCH JOURNAL ON ADVANCED SCIENCE HUB (IRJASH)."],
+        ["2025", "PAPER PRESENTATION INTERNATIONAL CONFERENCE ON INNOVATIONS IN ENGINEERING AND SCIENCES (ICIES 2025) AND PAPER PUBLICATION AT INTERNATIONAL RESEARCH JOURNAL ON ADVANCED SCIENCE HUB (IRJASH)."],
+        ["2025", "PAPER PRESENTATION INTERNATIONAL CONFERENCE ON INNOVATIONS IN ENGINEERING AND SCIENCES (ICIES 2025) AND PAPER PUBLICATION AT INTERNATIONAL RESEARCH JOURNAL ON ADVANCED SCIENCE HUB (IRJASH)."],
+        ["2025", "WEB REPORT ON CULTURAL EVENT “TEACHER’S DAY CELEBRATION” ORGANIZED BY SHRIMAD RAJCHANDRA INSTITUTE OF MANAGEMENT AND COMPUTER APPLICATION & B. V. PATEL INSTITUTE OF COMPUTER SCIENCE ON 4TH SEPTEMBER 2025."],
+        ["2025", "WEB REPORT ON CULTURAL EVENT “SHAURYA AUR SWATANTRATA: A TRIBUTE TO BHARAT” ORGANIZED BY B. V. PATEL INSTITUTE OF COMPUTER SCIENCE ON 14TH AUGUST 2025."],
+        ["2025", "WEB REPORT ON CULTURAL EVENT “RAKSHA PARVA” ORGANIZED BY B. V. PATEL INSTITUTE OF COMPUTER SCIENCE ON 8TH AUGUST 2025."]
+    ],
+    "2024-25": [
+        ["2024", "Collaborating Agencies for Student Internship (BCA) 2024-25"],
+        ["2024", "AN EXPERT TALK ON “UNLOCKING AI'S POTENTIAL: A PRACTICAL GUIDE TO AI TOOLS IN DAILY LIFE” ORGANIZED BY B. V. PATEL INSTITUTE OF COMPUTER SCIENCE ON 18TH JULY 2025."],
+        ["2024", "AN EXPERT TALK ON “HANDS-ON CLOUD COMPUTING” ORGANIZED BY B. V. PATEL INSTITUTE OF COMPUTER SCIENCE ON 12TH MARCH 2024."],
+        ["2024", "PAPER PRESENTATION BY A GROUP OF BCA STUDENT IN THE INTERNATIONAL CONFERENCE ON INNOVATIONS IN ENGINEERING, MANAGEMENT AND SCIENCE (ICIEMS – 2025) & PAPER PUBLICATION AT INTERNATIONAL RESEARCH JOURNAL ON ADVANCED ENGINEERING AND MANAGEMENT (IRJAEM)."],
+        ["2024", "PAPER PRESENTATION BY GROUP OF BCA STUDENTS IN INTERNATIONAL CONFERENCE ON ADVANCEMENTS IN SCIENCE, ENGINEERING & TECHNOLOGY (ICASET - 2024)."],
+        ["2024", "INTERNATIONAL YOUTH DAY CELEBRATION 2024 ORGANIZED BY B.V. PATEL INSTITUTE OF COMPUTER SCIENCE ON 9TH AUGUST 2024."]
+    ],
+    "2023-24": [
+        ["2023", "Web report on expert talk on How to present project work on 26-08-2023."],
+        ["2023", "FRESHER’S PARTY (RADIANCE 2023) ORGANIZED BY B. V. PATEL INSTITUTE OF COMPUTER SCIENCE ON 3RD NOVEMBER 2023."],
+        ["2023", "ORIENTATION PROGRAM 2023 ORGANIZED BY B. V. PATEL INSTITUTE OF COMPUTER SCIENCE (FOR STUDENTS BELONGING TO FYBCA) between 11TH SEPTEMBER 2023 to 15TH SEPTEMBER 2023."],
+        ["2023", "PARENTS ORIENTATION 2023 (PARENTS MEETING) ORGANIZED BY B. V. PATEL INSTITUTE OF COMPUTER SCIENCE (FOR PARENTS OF students BELONGING TO FYBCA) ON 9TH SEPTEMBER 2023."],
+    ],
+    "2022-23": [
+        ["2022", "ONE-DAY SEMINAR"],
+        ["2022", "KNOWLEDGE FAIR"],
+        ["2022", "MEG MHOTSAV"],
+        ["2022", "FRESHERS PARTY"],
+        ["2022", "STATE LEVEL COMPETITION IT MANIA"],
+        ["2022", "MIND IT BY SUTEX BANK COLLEGE 2022"]
+    ]
+};
+
+/* Load default */
+window.onload = () => updateTable("2025-26");
+
+function toggleDropdown() {
+    const list = document.getElementById("dropdownList");
+    list.style.display = list.style.display === "block" ? "none" : "block";
+}
+
+function selectYear(element, year) {
+    document.getElementById("selectedYear").innerText = year;
+    document.getElementById("yearBanner").innerText = year;
+
+    // remove old active
+    document.querySelectorAll(".dropdown-content div").forEach(el => {
+        el.classList.remove("active");
+    });
+
+    element.classList.add("active");
+
+    updateTable(year);
+
+    document.getElementById("dropdownList").style.display = "none";
+}
+
+function updateTable(year) {
+    let table = document.getElementById("tableData");
+    table.innerHTML = "";
+
+    if (!data[year]) {
+        table.innerHTML = "<tr><td colspan='2'>No data available</td></tr>";
+        return;
+    }
+
+    data[year].forEach(row => {
+        table.innerHTML += `
+            <tr>
+                <td>${row[0]}</td>
+                <td>${row[1]}</td>
+            </tr>
+        `;
+    });
+}
+</script>
+
+</body>
+</html>
